@@ -64,7 +64,7 @@ if __name__ == "__main__":
             save_to_file("User", user_text)
 
             try:
-                ai_reply = ask_gemini(user_text)  # 👈 now actually using the function
+                ai_reply = ask_gemini(user_text)
                 print("AI:", ai_reply)
                 speak(ai_reply)
                 save_to_file("AI", ai_reply)
