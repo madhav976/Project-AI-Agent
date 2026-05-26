@@ -1,1 +1,4 @@
 .env
+recording.wav
+chat_history.txt
+.venv/
